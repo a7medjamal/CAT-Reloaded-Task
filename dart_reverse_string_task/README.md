@@ -6,6 +6,6 @@ Guided the user by telling what to enter and created a function that stores ever
 
 ### Execution
 
-Please enter long string containing multiple words:
-I love programming in Dart.
-Dart. in programming love I
+- Please enter long string containing multiple words:
+- I love programming in Dart.
+- Dart. in programming love I
