@@ -31,7 +31,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
           widget.labelName,
           style: TextStyle(
             fontFamily: 'Poppins',
-            fontWeight: FontWeight.w500,
+            fontWeight: FontWeight.w600,
             fontSize: 14.sp,
             color: const Color(0xFF262422),
           ),
