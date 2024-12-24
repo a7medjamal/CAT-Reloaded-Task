@@ -110,14 +110,14 @@ class SettingsView extends StatelessWidget {
                 const CustomTextField(
                   labelName: 'Website',
                   hintText: 'www.gfx.com',
-                  icon: Icons.web_asset_outlined,
+                  icon: Icons.web_outlined,
                   isPassword: false,
                   isPhoneNumber: false,
                 ),
                 SizedBox(height: 20.h),
                 const CustomTextField(
                   labelName: 'Password',
-                  hintText: '********',
+                  hintText: 'www.gfx.com',
                   icon: Icons.lock_outline_rounded,
                   isPassword: true,
                   isPhoneNumber: false,
