@@ -10,6 +10,7 @@ class SettingsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -88,41 +89,36 @@ class SettingsView extends StatelessWidget {
               ),
             ),
             SizedBox(height: 30.h),
-            Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const CustomTextField(
-                  labelName: 'Your Email',
-                  hintText: 'xxx@gmail.com',
-                  icon: Icons.mail_outlined,
-                  isPhoneNumber: false,
-                  isPassword: false,
-                ),
-                SizedBox(height: 20.h),
-                const CustomTextField(
-                  labelName: 'Phone Number',
-                  hintText: '+93123135',
-                  isPassword: false,
-                  isPhoneNumber: true,
-                  icon: Icons.phone_outlined,
-                ),
-                SizedBox(height: 20.h),
-                const CustomTextField(
-                  labelName: 'Website',
-                  hintText: 'www.gfx.com',
-                  icon: Icons.web_outlined,
-                  isPassword: false,
-                  isPhoneNumber: false,
-                ),
-                SizedBox(height: 20.h),
-                const CustomTextField(
-                  labelName: 'Password',
-                  hintText: 'www.gfx.com',
-                  icon: Icons.lock_outline_rounded,
-                  isPassword: true,
-                  isPhoneNumber: false,
-                ),
-              ],
+            const CustomTextField(
+              labelName: 'Your Email',
+              hintText: 'xxx@gmail.com',
+              icon: Icons.mail_outlined,
+              isPhoneNumber: false,
+              isPassword: false,
+            ),
+            SizedBox(height: 20.h),
+            const CustomTextField(
+              labelName: 'Phone Number',
+              hintText: '+93123135',
+              isPassword: false,
+              isPhoneNumber: true,
+              icon: Icons.phone_outlined,
+            ),
+            SizedBox(height: 20.h),
+            const CustomTextField(
+              labelName: 'Website',
+              hintText: 'www.gfx.com',
+              icon: Icons.web_outlined,
+              isPassword: false,
+              isPhoneNumber: false,
+            ),
+            SizedBox(height: 20.h),
+            const CustomTextField(
+              labelName: 'Password',
+              hintText: 'www.gfx.com',
+              icon: Icons.lock_outline_rounded,
+              isPassword: true,
+              isPhoneNumber: false,
             ),
             SizedBox(height: 50.h),
             const CustomElevatedButton(),
